@@ -17,6 +17,7 @@ public class Login
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.get("https://demowebshop.tricentis.com/");
 		Reporter.log("Official site is launched",true);
+		Reporter.log("DEmoWebShop id displayed",true);
 	}
 
 }
